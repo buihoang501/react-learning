@@ -1,0 +1,26 @@
+- initialState :  the first state  
+
+- reducer(currentState, action)
+    if(action.type==='ABC')  {
+        return {
+            ...currentState,  keyChange:  currentState.keyChange ....
+        }
+    }
+    return initialState (default)
+
+    switch(action.type){
+        case 'ABC': {
+            return {
+            ...currentState,  keyChange:  currentState.keyChange ....
+        }
+        }
+
+        default: return {
+            ...currentState,  keyChange:  currentState.keyChange ....
+        }
+    }
+
+- useReducer(reducer, initialState) 
+=> return [currentState, dispatch]
+
+-dispatch({type:'ABC', keyItem: itemValue})

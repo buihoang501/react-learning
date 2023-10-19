@@ -1,0 +1,4 @@
+1- Styling by  normal CSS is global CSS 
+2- Avoiding override CSS/ conflic CSS className  
+-> Using  styled components / CSS module
+-> Each Component will have a different CSS file

@@ -1,0 +1,7 @@
+React Portals are an advanced concept that allows developers to 
+render their elements outside the React hierarchy tree without
+comprising the parent-child relationship between components.
+Usually, typical React components are located within the DOM 
+
+ Such a application of the react portal is modal 
+ -> when the child components need to visually break out of the parent container

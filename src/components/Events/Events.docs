@@ -1,0 +1,4 @@
+The react event handling system is known as Synthetic Events.
+ The synthetic event is a cross-browser wrapper of the browser's native event. 
+ Handling events with react have some syntactic differences from handling events on DOM. 
+ These are: React events are named as camelCase instead of lowercase.

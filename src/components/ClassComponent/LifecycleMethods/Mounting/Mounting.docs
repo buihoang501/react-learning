@@ -1,0 +1,26 @@
+-constructor(props)
+    1. A speacial function that will get called whenever a new component is 
+    created
+    2.Initializing state
+    Binding the event handlers
+    3. Do not cause side effects
+    Ex: HTTP requests
+    4. super(props)
+    Directly overwrite this.state
+
+-static getDerivedStateFromProps(props,state)
+    1. When the state of the component depends on changes in props overtime
+    2.Set the state
+    3.Do not cause side effects. Ex:HTTP request
+
+-render() 
+    1. Only required method
+    2. Read props & state and return JSX
+    3. Do not changes state or interact with DOM or make  ajax calls.
+    4. Children components lifecycle methods are also executed
+
+-componentDidMount()
+1. Invoked immediately after a component and all its children components 
+have been rendered to the DOM
+2. Cause side effects. Ex: interact with the DOM or perform any ajax calls
+to load data

@@ -1,0 +1,26 @@
+-static getDerivedStateFromProps(props,state)
+    1. Method is called every time a component is re-rendered
+    2. Set the state 
+    3. Do not cause side effects  Ex: HTTP requests
+
+-shouldComponentUpdate(nextProps, nextState)
+    1. Dictates if the component should re-render or not
+    2. Performance optimization
+    3. Do not cause side effects  Ex: HTTP requests
+    4. Calling the setState method
+
+-render()
+    1. Only required method
+    2. Read props, state and return JSX 
+    3. Do not change state or interact with DOM or make ajax calls
+
+-getSpapShotBeforeUpdate(prevProps, prevState)
+    1.Call right before the changes from the virtual DOM  are to be reflected 
+    in the DOM
+    2.Capture some information in the DOM
+    3.Method will either return null or return a value.
+    Return value (snapshot) will be passed as the third parameter to the next method.
+
+-componentDidUpdate(prevProps, prevState, snapshot)
+    1. Call after the render is finished in the re-render cycles
+    2. Cause side effects

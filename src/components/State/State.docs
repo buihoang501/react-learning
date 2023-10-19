@@ -1,0 +1,4 @@
+1- The state is a  built-in  React object and is used to contain data or information about the component
+2- State can be changed (mutable)
+3- When the state is changed, the component is re-rendered
+

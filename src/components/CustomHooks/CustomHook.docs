@@ -1,0 +1,4 @@
+A custom hook is a special JavaScrip function whose name starts with 'use'
+and can be used to call other hooks. Let's take a look at some major 
+differences between a custom React JS hook and React JS components  
+A custom hook does not require a specific signature.

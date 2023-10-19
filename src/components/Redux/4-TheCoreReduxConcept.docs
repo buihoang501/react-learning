@@ -1,0 +1,3 @@
+-The Reducer Function 
+1. Should be a pure function => same input leads to same output 
+2. Inputs: Old state + Dispatched Action  => Output: new state object

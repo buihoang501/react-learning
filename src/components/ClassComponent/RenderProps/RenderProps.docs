@@ -1,0 +1,2 @@
+The term "render props" refers to a technique for sharing code between React 
+components using  prop whose value is a function

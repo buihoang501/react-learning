@@ -1,0 +1,9 @@
+-Core Redux Concept
+    1. Center Data (State) Store - only one store 
+    2. Components  subscription receive state(data) from Center Store
+    => components never directly manipulate the store data
+    3. We use reducer function is responsible for mutating state from Center Store
+     => not useReducer(), reducer functions are  general concept
+    4. Action,  Components dispatch the action to change state from store 
+    forwareded to Reducer Function
+    

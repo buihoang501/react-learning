@@ -1,0 +1,17 @@
+-What is Redux
+A state management system for cross-component or app-wide state
+
+-React Context -Potential Disadvantages
+   1. Complex Setup/ Management State 
+   2. React Context - Complex Setup
+
+-React Context Performance
+    => used to for low frequency unlikely updates (like locale/theme)
+    => It's not ready to be used as a replacement for all Flux-like state propagation
+
+-Redux is flux like state management library
+
+summary
+    -In more complex apps, managing React Context can lead to deeply nested JSX 
+    code and/ or huge "Context Provider" components
+    -React Context is not optimized for high-frequency state changes

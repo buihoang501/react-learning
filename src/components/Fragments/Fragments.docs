@@ -1,0 +1,4 @@
+React Fragment is a feature in React that allows you to return multiple elements from a React component 
+by allowing you to group a list of children without adding extra nodes to the DOM. To return multiple elements 
+from a React component, you'll need to wrap the element in a root element.
+Because vanilla javascript returns only a value, so we need a wrapper to wrap  child elements 

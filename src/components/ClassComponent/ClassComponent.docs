@@ -1,0 +1,4 @@
+Class components make use of ES6 class and extend the Component class in React
+Sometimes called "smart" or "stateful" components as they tend to implement
+logic and state. React lifecycle methods can be used inside class components 
+(for example, componentDidMount)

@@ -1,0 +1,4 @@
+-componentWillUnmount()
+1. Method is invoked immediately before a component is unmounted and destroyed
+2. Cancelling any network requests, removing event handlers, cancelling any 
+subscriptions and also invalidating timers.

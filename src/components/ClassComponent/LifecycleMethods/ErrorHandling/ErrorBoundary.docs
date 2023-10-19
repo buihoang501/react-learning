@@ -1,0 +1,10 @@
+-Error Boundary
+A class component that implements either one or both of th e lifecycle methods
+getDeriedStateFromError or ComponentDidCatch becomes an error boundary 
+
+The satic method getDerivedStateFromError method is used to render a fallback 
+UI after an error is thrown and the componentDidCatch is used to log the error
+information.
+
+Error boundaries are React are React components that catch Javascript error 
+in their child component tree, log those errors, and display a fall-back UI
